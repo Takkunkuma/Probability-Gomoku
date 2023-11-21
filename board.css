@@ -1,0 +1,28 @@
+.example {
+    display: flex;
+    border: solid 3px black;
+    font-size: 64px;
+}
+
+.board {
+    background-color: #cc6600;
+    display: flex;
+    margin: auto;
+    width: 1060px;
+    height: 1060px;
+}
+
+.grid {
+    display: grid;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+.grid div{
+    background-color: #cc6600;
+    border: 1px solid black;
+    aspect-ratio:1;
+}
